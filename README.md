@@ -7,9 +7,21 @@
 * LED 매트릭스와 조이스틱을 이용한 미니게임
 
 # 2. 사용기기
+라즈베리파이4
+![image](https://github.com/cubejun/project_lab_sqlite_db/assets/133946040/e265e8ac-e8e8-456f-907a-c5407311a4b8)
+
+
+라즈베리파이 센스햇
+![image](https://github.com/cubejun/project_lab_sqlite_db/assets/133946040/442aab92-ed58-4168-9c48-dc7c89ac3eef)
+
+
+라즈베리파이4에 센스햇 장착
+![image](https://github.com/cubejun/project_lab_sqlite_db/assets/133946040/3391b277-8e8f-4f96-9aa4-bd843597ff6e)
+
+센스햇의 센서와 기타 장치
 ![image04](https://github.com/cubejun/project_lab_sqlite_db/assets/133946040/4884ad2d-5699-418d-99fc-3dd4138e97e8)
 
-
+블록도
 ![plab drawio](https://github.com/cubejun/project_lab_sqlite_db/assets/133946040/8f483d6b-4620-405e-ab81-6b0b27ac8217)
 
 # 3. 구현결과
