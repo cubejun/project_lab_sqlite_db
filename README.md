@@ -6,7 +6,7 @@
 * DB에 저장된 데이터 웹 페이지에 실시간 그래프 구현
 * LED 매트릭스와 조이스틱을 이용한 미니게임
 
-# 2. 블록도
+# 2. 사용기기
 ![image04](https://github.com/cubejun/project_lab_sqlite_db/assets/133946040/4884ad2d-5699-418d-99fc-3dd4138e97e8)
 
 
