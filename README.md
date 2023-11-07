@@ -10,7 +10,6 @@
 ![image04](https://github.com/cubejun/project_lab_sqlite_db/assets/133946040/4884ad2d-5699-418d-99fc-3dd4138e97e8)
 
 
-![asf](https://github.com/cubejun/project_lab_sqlite_db/assets/133946040/fad505bf-5c97-43eb-b7b8-de73a62a126c)
 ![plab drawio](https://github.com/cubejun/project_lab_sqlite_db/assets/133946040/8f483d6b-4620-405e-ab81-6b0b27ac8217)
 
 # 3. 구현결과
