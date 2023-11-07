@@ -11,6 +11,7 @@
 
 
 ![asf](https://github.com/cubejun/project_lab_sqlite_db/assets/133946040/fad505bf-5c97-43eb-b7b8-de73a62a126c)
+![plab drawio](https://github.com/cubejun/project_lab_sqlite_db/assets/133946040/8f483d6b-4620-405e-ab81-6b0b27ac8217)
 
 # 3. 구현결과
 ![image](https://github.com/cubejun/project_lab_sqlite_db/assets/133946040/8a4c88a4-aabc-4d6a-9f18-5ae4f2844ade)
