@@ -26,4 +26,4 @@
 ![image](https://github.com/cubejun/project_lab_sqlite_db/assets/133946040/3d3774c5-366c-4c68-82d9-59e810985616)
 
 # 4. 영상
-[![Video Label](http://img.youtube.com/vi/PZAok9KnwdU?si=qenAgFC3oC19wo8V/0.jpg)](https://youtu.be/PZAok9KnwdU?si=qenAgFC3oC19wo8V)
+[![Video Label](http://img.youtube.com/vi/PZAok9KnwdU?si=n0pxtm9isSYDBJ1q/0.jpg)](https://youtu.be/PZAok9KnwdU?si=n0pxtm9isSYDBJ1q)
