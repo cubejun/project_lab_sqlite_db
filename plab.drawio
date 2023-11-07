@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" modified="2023-11-07T13:05:52.963Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="N0XUTUqLmppD50TrK-Nu" version="22.0.8" type="github">
+  <diagram name="페이지-1" id="MGkRZoamm4c_F3gciiWe">
+    <mxGraphModel dx="2625" dy="6116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-1" value="라즈베리파이" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=right;verticalLabelPosition=top;align=left;verticalAlign=bottom;horizontal=1;fontSize=67;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="30" y="220" width="990" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-2" value="센스햇" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=right;verticalLabelPosition=top;align=left;verticalAlign=bottom;fontSize=65;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="30" y="-130" width="990" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=45;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="9Lt5nS9jlxulrSvFqO4I-3" target="9Lt5nS9jlxulrSvFqO4I-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-3" value="온습도" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-90" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=45;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" parent="1" source="9Lt5nS9jlxulrSvFqO4I-5" target="9Lt5nS9jlxulrSvFqO4I-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-5" value="자이로스코프" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="260" y="-90" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=45;strokeWidth=3;" parent="1" source="9Lt5nS9jlxulrSvFqO4I-6" target="9Lt5nS9jlxulrSvFqO4I-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-6" value="지자계" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="445" y="-90" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=45;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" parent="1" source="9Lt5nS9jlxulrSvFqO4I-7" target="9Lt5nS9jlxulrSvFqO4I-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-7" value="LED 매트릭스" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="630" y="-90" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-20" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;rounded=0;fontSize=45;strokeWidth=3;" parent="1" source="9Lt5nS9jlxulrSvFqO4I-8" target="9Lt5nS9jlxulrSvFqO4I-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-8" value="조이스틱" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="820" y="-90" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=45;strokeWidth=3;" parent="1" source="9Lt5nS9jlxulrSvFqO4I-9" target="9Lt5nS9jlxulrSvFqO4I-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="420" />
+              <mxPoint x="280" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-9" value="python &lt;br&gt;read sense hat data and create sqlite3 db" style="rounded=0;whiteSpace=wrap;html=1;fontSize=45;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="100" y="270" width="870" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=45;strokeWidth=3;" parent="1" source="9Lt5nS9jlxulrSvFqO4I-16" target="9Lt5nS9jlxulrSvFqO4I-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-16" value="python flask" style="rounded=0;whiteSpace=wrap;html=1;fontSize=45;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="620" y="440" width="340" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=45;strokeWidth=3;" parent="1" source="9Lt5nS9jlxulrSvFqO4I-19" target="9Lt5nS9jlxulrSvFqO4I-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-19" value="sqlite3 db" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=45;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="90" y="460" width="390" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-18" value="html" style="rounded=0;whiteSpace=wrap;html=1;fontSize=45;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="645" y="740" width="290" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-30" value="web page" style="rounded=0;whiteSpace=wrap;html=1;fontSize=74;verticalAlign=top;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="70" width="1380" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.482;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" parent="1" source="9Lt5nS9jlxulrSvFqO4I-18" target="9Lt5nS9jlxulrSvFqO4I-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-33" value="temperature graph" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="1525" y="200" width="1250" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-34" value="humidity graph" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="1525" y="440" width="1250" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-35" value="gyroscope graph" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="695" width="360" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-36" value="compass" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="1970" y="695" width="360" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="9Lt5nS9jlxulrSvFqO4I-37" value="LED MATRIX" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="2415" y="690" width="360" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
