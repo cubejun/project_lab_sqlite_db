@@ -1,0 +1,51 @@
+    <canvas id="gyro-chart" width="500" height="500"></canvas>
+    <style>
+        #gyro-chart {
+                float: left;
+                margin-right: 300px;
+            }
+    </style>
+    <script>
+        const ctx = document.getElementById('gyro-chart').getContext('2d');
+        let chart;
+        let gyroData = { x: 0, y: 0, z: 0 };
+
+        // Create a Chart.js chart
+        chart = new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: ['X', 'Y', 'Z'],
+                datasets: [{
+                    label: 'Gyroscope Data',
+                    data: [gyroData.x, gyroData.y, gyroData.z],
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: false,
+                scale: {
+                    ticks: {
+                        beginAtZero: false
+                    }
+                    
+                }
+            }
+        });
+
+        // Update chart with gyro data
+        function updateChart() {
+            fetch('/gyro_data')
+                .then(response => response.json())
+                .then(data => {
+                    gyroData = data;
+                    chart.data.datasets[0].data = [gyroData.x, gyroData.y, gyroData.z];
+                    chart.update();
+                    setTimeout(updateChart, 2000);
+                });
+        }
+
+        // Start updating the chart
+        updateChart();
+    </script>

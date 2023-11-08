@@ -1,0 +1,36 @@
+    <div class="compass" style>
+        <div class="compass-inner">
+            <div class="north">N</div>
+            <div class="east">E</div>
+            <div class="west">W</div>
+            <div class="south">S</div>
+            <div class="main-arrow">
+                <div class="arrow-up"></div>
+                <div class="arrow-down"></div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .compass {
+                float: left;
+                margin-right: 300px;
+            }
+    </style>
+    <script>
+        function updateCompass() {
+            // You should set a specific heading value here.
+            fetch('/compass')  // Assuming your Flask route is '/compass'
+                .then(response => response.json())
+                .then(data => {
+                    const heading = data.heading;  // Adjust this based on your sensor data format
+                    const compassNeedle = document.querySelector('.main-arrow');
+                    compassNeedle.style.setProperty('--rotation', `${heading}deg`);
+                });
+        
+            
+        }
+        
+        setInterval(updateCompass, 1); // 1초마다 업데이트
+        
+    </script>
+

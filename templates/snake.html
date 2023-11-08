@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake Game</title>
+    <style>
+        table#led-matrix {
+            border-collapse: separate;
+            border-spacing: 2px;
+        }
+
+        table#led-matrix td {
+            width: 25px;
+            height: 25px;
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Snake Game</h1>
+    <p>Game Score: <span id="game-score">0</span></p>
+    <p>High Score: <span id="high-score">0</span></p>
+    <table id="led-matrix">
+        <script>
+            // Function to update the LED matrix on the web page
+            function updateLedMatrix() {
+                fetch('/snake/get_led_matrix')
+                    .then(response => response.json())
+                    .then(data => {
+                        const ledMatrix = data.matrix;
+                        const table = document.getElementById('led-matrix');
+                        table.innerHTML = ''; // Clear the previous content
+        
+                        for (let y = 0; y < 8; y++) {
+                            const row = document.createElement('tr');
+                            for (let x = 0; x < 8; x++) {
+                                const pixel = document.createElement('td');
+                                const color = ledMatrix[y][x];
+                                pixel.style.backgroundColor = `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
+                                row.appendChild(pixel);
+                            }
+                            table.appendChild(row);
+                        }
+                    });
+            }
+        
+            // Update LED matrix periodically
+            setInterval(updateLedMatrix, 100); // You can adjust the update interval as needed
+        </script>
+    </table>
+    <button id="start-game">Start Game</button>
+    <button id="stop-game">Stop Game</button>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var scoreElement = document.getElementById('game-score');
+            var startButton = document.getElementById('start-game');
+            var stopButton = document.getElementById('stop-game');
+            var highScoreElement = document.getElementById('high-score');
+            startButton.addEventListener('click', function() {
+                fetch('/snake/start_game', { method: 'POST' })
+                    .then(response => response.json())
+                    .then(data => console.log(data));
+            });
+
+            stopButton.addEventListener('click', function() {
+                fetch('/snake/stop_game', { method: 'POST' })
+                    .then(response => response.json())
+                    .then(data => console.log(data));
+            });
+
+            
+        
+            // 웹 페이지가 로드될 때 초기 점수를 가져옵니다.
+            updateScore();
+        
+            // 주기적으로 점수를 업데이트합니다.
+            setInterval(updateScore, 1000); // 1초마다 업데이트 (원하는 주기로 조절 가능)
+        
+            function updateScore() {
+                fetch('/snake/get_score')  // Flask 애플리케이션의 엔드포인트 URL에 맞게 수정
+                    .then(response => response.json())
+                    .then(data => {
+                        scoreElement.textContent = data.score;
+                        highScoreElement.textContent = data.high_score; // 최고 점수 업데이트
+                    });
+            }
+        });
+    </script>
+</body>
+</html>
