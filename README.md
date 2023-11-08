@@ -42,3 +42,5 @@
 
 https://github.com/cubejun/project_lab_sqlite_db/assets/133946040/ba856f3b-4527-4ec4-8952-855c7aad2af4
 
+
+[![Video Label](http://img.youtube.com/vi/pew-FnegJDk/0.jpg)](https://youtu.be/pew-FnegJDk)
